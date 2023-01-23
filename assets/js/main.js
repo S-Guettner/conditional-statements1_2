@@ -5,6 +5,7 @@ let weatherOutput = document.getElementById("weatherOutput")
 
 button.addEventListener('click', () =>{
     let inputValue = numberInput.value;
+    
     if(inputValue >= 8 && inputValue <= 10){
         weatherOutput.innerHTML = "super"
     }else if(inputValue >= 6 && inputValue <= 7){
